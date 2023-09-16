@@ -6,26 +6,26 @@
     "image":"profilepic.jpg",
     "bio":"I’ve coordinated large-scale projects, leading strong technical teams to meet key business deliverables, always focused on execution of operational excellence. A skilled communicator, I can help others understand complex concepts in a simple and efficient manner, and have introduced strategies that resulted in high production, cost reduction, and revenue growth. People enjoy working with me because of my professional and positive attitude, my collaborative leadership style, and my ability to communicate with all levels of the organization.",
     "contactmessage":"Write some words....",
-    "email": "ricky_4567@yahoo.co.in",
-    "phone": "+91-9417349947",
+    "email": "contact@rickyharerri.com",
+    "phone": "+1 (647) 978-9947",
     "address":{
-      "street":"Rajiv Gandhi IT Park",
-      "city":"Chandigarh",
-      "state":"Chandigarh (UT)",
-      "zip": "160101",
-      "country": "India"
+      "street":"33 Helendale Ave.",
+      "city":"Toronto",
+      "state":"Ontario",
+      "zip": "M4R 0A4",
+      "country": "Canada"
     },
-    "website": "http://www.rickyharerri.com",
-    "resumedownload":"http://www.rickyharerri.com",
+    "website": "https://www.rickyharerri.com",
+    "resumedownload":"https://www.rickyharerri.com/ResumePrabhjotPDF.pdf",
     "social":[
       {
         "name":"facebook",
-        "url":"http://facebook.com/rickyharerri",
+        "url":"https://facebook.com/rickyharerri",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com/rickyharerri",
+        "url":"https://twitter.com/rickyharerri",
         "className":"fa fa-twitter"
       },
       {
@@ -35,12 +35,12 @@
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/rickyharerri",
+        "url":"https://instagram.com/rickyharerri",
         "className":"fa fa-instagram"
       },
       {
         "name":"github",
-        "url":"http://github.com/rickyharerri",
+        "url":"https://github.com/rickyharerri",
         "className":"fa fa-github"
       },
       {
@@ -68,11 +68,25 @@
     ],
     "work":[
       {
-        "company":"Freelancer",
+        "company":"CGI Inc.",
         "isPresent":true,
-        "title":"Full Stack Engineer | IT Consultant | Entrepreneur",
-        "years":"May 2020 - Till Date",
+        "title":"IT Consultant",
+        "years":"April 2022 - Present",
+        "description":"Tech Stack -> Vue JS, Vuitify, Open Shift, SSO, Form.io, Python, Swagger, Docker, Kubernetes, HTML5, SCSS, Bootstrap, Stripe Payments, Elasticsearch, Wordpress, Confluence, Meister Task, Git. Built Web Services and amazing user-interfaces. Key player in all phases of the software development lifecycle (SDLC) for multiple products. Collaborated closely with other team members to plan, design and develop robust software solutions. Wrote maintainable, extensible and well documented code in an agile environment. Improved existing code using SOLID design principles."
+      },
+      {
+        "company":"Zouk Design (Remote)",
+        "isPresent":false,
+        "title":"Full Stack Developer",
+        "years":"August 2021 - February 2022",
         "description":"Tech Stack -> React JS, Electron JS, AWS, Python, PHP, Laravel, Lumen, SQL, RabbitMQ, Swagger, Docker, Kubernetes, Angular, HTML5, SCSS, Bootstrap, Stripe Payments, Elasticsearch, Wordpress, Confluence, Meister Task, Git. Built Web Services and amazing user-interfaces. Key player in all phases of the software development lifecycle (SDLC) for multiple products. Collaborated closely with other team members to plan, design and develop robust software solutions. Wrote maintainable, extensible and well documented code in an agile environment. Improved existing code using SOLID design principles."
+      },
+      {
+        "company":"Bo-we ApS (Remote)",
+        "isPresent":false,
+        "title":"Full Stack Developer",
+        "years":"May 2020 - July 2021",
+        "description":"Project URL -> https://leagues.gg/ | Tech Stack -> ReactJS, NodeJS, Git, Steam API, GCP, Elastic beanstalk, AWS Amplify, MongoDB. Built Web Services and amazing user-interfaces. Key player in all phases of the software development lifecycle (SDLC) for multiple products. Collaborated closely with other team members to plan, design and develop robust software solutions. Wrote maintainable, extensible and well documented code in an agile environment. Improved existing code using SOLID design principles."
       },
       {
         "company":"Krescent IT Labs Pvt. Ltd.",
@@ -137,7 +151,7 @@
         "title":"Tazman",
         "category":"Find the best sports venues near you.",
         "image":"tazman-min.png",
-        "url":"https://tazman.ml/"
+        "url":"http://tazman.ml/"
       },{
         "title":"Dollar Saver - HongKong",
         "category":"30 Year old classified organisation with more that 500 Clients wordwide. One of the best market place used in Hongkong",
