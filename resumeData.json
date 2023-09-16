@@ -1,0 +1,186 @@
+{
+  "main": {
+    "name":"Er. Ricky Harerri",
+    "occupation":"Full Stack Engineer",
+    "description":"I draw on techniques from several disciplines, combined with a unique blend of design thinking and a creative approach to challenge conventional thinking. I’m a trusted advisor and partner with technology leadership, always identifying opportunities to promote efficiency and productivity while gaining a competitive advantage. I draw from a diverse background of experiences, harvesting ideas from different disciplines, and apply them to business and technology problems.",
+    "image":"profilepic.jpg",
+    "bio":"I’ve coordinated large-scale projects, leading strong technical teams to meet key business deliverables, always focused on execution of operational excellence. A skilled communicator, I can help others understand complex concepts in a simple and efficient manner, and have introduced strategies that resulted in high production, cost reduction, and revenue growth. People enjoy working with me because of my professional and positive attitude, my collaborative leadership style, and my ability to communicate with all levels of the organization.",
+    "contactmessage":"Write some words....",
+    "email": "ricky_4567@yahoo.co.in",
+    "phone": "+91-9417349947",
+    "address":{
+      "street":"Rajiv Gandhi IT Park",
+      "city":"Chandigarh",
+      "state":"Chandigarh (UT)",
+      "zip": "160101",
+      "country": "India"
+    },
+    "website": "http://www.rickyharerri.com",
+    "resumedownload":"http://www.rickyharerri.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/rickyharerri",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/rickyharerri",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/rickyharerri/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/rickyharerri",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/rickyharerri",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"https://join.skype.com/invite/mQD1ofDyt2oh",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"College?",
+        "degree":"Bachelor in Computer Science Engineering",
+        "graduated":"May 2013",
+        "description":"The Punjab State Board of Technical Education, Chandigarh"
+      },
+      {
+        "school":"Diploma?",
+        "degree":"Diploma in Computer Science",
+        "graduated":"April 2010",
+        "description":"Punjab Technial University, Jalandhar."
+      }
+    ],
+    "work":[
+      {
+        "company":"Freelancer",
+        "isPresent":true,
+        "title":"Full Stack Engineer | IT Consultant | Entrepreneur",
+        "years":"May 2020 - Till Date",
+        "description":"Tech Stack -> React JS, Electron JS, AWS, Python, PHP, Laravel, Lumen, SQL, RabbitMQ, Swagger, Docker, Kubernetes, Angular, HTML5, SCSS, Bootstrap, Stripe Payments, Elasticsearch, Wordpress, Confluence, Meister Task, Git. Built Web Services and amazing user-interfaces. Key player in all phases of the software development lifecycle (SDLC) for multiple products. Collaborated closely with other team members to plan, design and develop robust software solutions. Wrote maintainable, extensible and well documented code in an agile environment. Improved existing code using SOLID design principles."
+      },
+      {
+        "company":"Krescent IT Labs Pvt. Ltd.",
+        "isPresent":false,
+        "title":"Full Stack Engineer",
+        "years":"Mar 2017 - Apr 2020  (3 yrs 2 mos)",
+        "description":"Tech Stack -> React JS, Electron JS, AWS, Python, PHP, Laravel, Lumen, SQL, RabbitMQ, Swagger, Docker, Kubernetes, Angular, HTML5, SCSS, Bootstrap, Stripe Payments, Elasticsearch, Wordpress, Confluence, Meister Task, Git. Built Web Services and amazing user-interfaces. Key player in all phases of the software development lifecycle (SDLC) for multiple products. Collaborated closely with other team members to plan, design and develop robust software solutions. Wrote maintainable, extensible and well documented code in an agile environment. Improved existing code using SOLID design principles."
+      },
+      {
+        "company":"Wave Infotech",
+        "isPresent":false,
+        "title":"Web Developer",
+        "years":"January 2014 - March 2017 (3 yrs 3 mos)",
+        "description":"I have started my internship and first job as a Software Developer at @WaveInfotech. Here, at the organisation I was Responsible for core level Software Development using Codignitor, Yii2 & Laravel Framework. CMS that i had used were Wordpress, Joomla, Magento, OSClass, Opencart. My achievements over there were Building Wordpress plugins and Extentions for Woocomerce."
+      }
+    ],
+    "skills_others":"Expertise in PHP, Laravel, Javascript, Node.js, React, Angular, AWS, Serverless Architecture, Lambda, API Gateway, Microservices, SQL, MongoDB, Firebase, Jenkins, CI/CD, Docker,HTML, CSS(SCSS/SASS), Elasticsearch, Google Cloud Platform(GCP)",
+    "skills":[
+      {
+        "name":"PHP",
+        "level":"95%"
+      },
+      {
+        "name":"ReactJS",
+        "level":"80%"
+      },
+      {
+        "name":"NodeJS",
+        "level":"85%"
+      },
+      {
+        "name":"ElectronJS",
+        "level":"70%"
+      },
+      {
+        "name":"Firebase",
+        "level":"90%"
+      },
+      {
+        "name":"SQL/Sequilize",
+        "level":"80%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"65%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Dr Fix It All - HongKong",
+        "category":"One of the most reputated & old Handyman company in HongKong.",
+        "image":"drfixitall-min.png",
+        "url":"http://www.drfixitall.hk/"
+      },{
+        "title":"Elite movers - HongKong",
+        "category":"Established in 2005, Elite Movers has been a symbol of stability, competence and integrity for years.",
+        "image":"elitemovers-min.png",
+        "url":"http://www.elitemovers.hk/"
+      },{
+        "title":"Tazman",
+        "category":"Find the best sports venues near you.",
+        "image":"tazman-min.png",
+        "url":"https://tazman.ml/"
+      },{
+        "title":"Dollar Saver - HongKong",
+        "category":"30 Year old classified organisation with more that 500 Clients wordwide. One of the best market place used in Hongkong",
+        "image":"dollarsaver-min.png",
+        "url":"http://www.dollarsaver.com.hk/"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"He is one of the best developer in our group, We worked on many different custom projects and thanks to Prabhjot all are successful. He is dedicated and master in his field.",
+        "user":"Vishnu Malhotra | Founder & CEO at Techno Deviser | via Linkedin Recommendations"
+      },
+      {
+        "text":"I have worked with Prabhjot, he is gem of person and very sound in skills. He always goes extra mile to finish the job on time and with utmost quality. I highly recommend him if you seek any Web development work. He is master of his domain. Wish him all the good luck.",
+        "user":"Rohan Sharma | CEO Unicloud It Services Private Limited | via Linkedin Recommendations"
+      },
+      {
+        "text":"Prabhjot is a person with high professional ethics and also possess a great sense of coding. He is exceptionally good with his logics in Php, Javascript, AWS, React and \n Node Js to get through the bottleneck of any project. \n Prabhjot will be a great asset to any organization with his outstanding work and talent. \n One man and multiple talent. \n Kudos Prabhjot !! \n \n I wish him all the very best for his professional and personal growth",
+        "user":"Sanjana Kashyap | Sr. HR Generalist | via Linkedin Recommendations"
+      },
+      {
+        "text":"Prabhjot has excellent skills in coding, Requirement understanding, project deliveries and client communication. I am very much impressed with the skills he have. I would like to recommend him for all the clients want to work with him. Again highly recommended 👍",
+        "user":"Sanjeev Singh | Sr. Business Analyst at Zoptal Solutions Pvt. Ltd. | via Linkedin Recommendations"
+      },
+      {
+        "text":"one of the best programmer i had met.",
+        "user":"Lakhvir Kumar | Full Stack Engineer | via Linkedin Recommendations"
+      },
+      {
+        "text":"Prabhjot is a transcendent full-stack developer. He has excellent technical, presentation and communication abilities. I have a great experience with him while doing a Long-term ReactJS and PHP project. He always ready to learn new technologies and show up his keen interest to jump into challenging situations. He always provides a higher preference for his work, I like his passion regarding work. He knows very well about how to work on long-term projects and how to deal with clients. I see his dedication for his projects closely & His response time to any query is excellent i.e 24X7.",
+        "user":"Sukhbir Singh | Software Engineer | via Linkedin Recommendations"
+      },
+      {
+        "text":"I had the pleasure of working with Prabhjot at my former agency. Prabhjot is very knowledgeable, problem-solver dedicated team player. He would forever be the first personality to raise their hand to volunteer to help out any obstacle. He would always come in and ask other team members if they need any help. Prabhjot consistently paid close attention to details when he was in client meetings & conferences. His Quotations, Timeframes towards Projects are always accepted. Prabhjot was always on time and one of the hardest workers in the room.",
+        "user":"Satnam Singh | Software Engineer | via Linkedin Recommendations"
+      },
+      
+      {
+        "text":"Highly skilled and professional. Complete his tasks very fast and with 100% accuracy.",
+        "user":"Nitin Kumar | Business Development Team Lead | via Linkedin Recommendations"
+      }
+    ]
+  }
+}
