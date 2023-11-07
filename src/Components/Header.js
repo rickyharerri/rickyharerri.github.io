@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Interweave, { Markup } from 'interweave';
+import { Markup } from 'interweave';
 class Header extends Component {
   render() {
 
