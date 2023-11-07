@@ -68,7 +68,7 @@
     ],
     "work":[
       {
-        "company":"CGI Inc.",
+        "company":"CGI Inc. Canada",
         "isPresent":true,
         "title":"IT Consultant",
         "years":"April 2022 - Present",
@@ -118,7 +118,7 @@
         "level":"85%"
       },
       {
-        "name":"ElectronJS",
+        "name":"Vue.js",
         "level":"70%"
       },
       {
@@ -138,6 +138,11 @@
   "portfolio":{
     "projects": [
       {
+        "title":"Leagues.gg",
+        "category":"Denmarks most popular eSports gaming platform.",
+        "image":"leagues-min.png",
+        "url":"https://leagues.gg/"
+      },{
         "title":"Dr Fix It All - HongKong",
         "category":"One of the most reputated & old Handyman company in HongKong.",
         "image":"drfixitall-min.png",
@@ -151,12 +156,17 @@
         "title":"Tazman",
         "category":"Find the best sports venues near you.",
         "image":"tazman-min.png",
-        "url":"http://tazman.ml/"
+        "url":"https://tazman.online/"
       },{
         "title":"Dollar Saver - HongKong",
         "category":"30 Year old classified organisation with more that 500 Clients wordwide. One of the best market place used in Hongkong",
         "image":"dollarsaver-min.png",
         "url":"http://www.dollarsaver.com.hk/"
+      },{
+        "title":"Yuzuco Contemporary Japanese - Australia",
+        "category":"Yuzu & Co is a small but lively eatery that specializes in contemporary Japanese eats as well as some more inventive fare.",
+        "image":"yuzuco-min.png",
+        "url":"https://www.yuzuco.com/"
       }
     ]
   },
