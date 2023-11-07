@@ -146,18 +146,30 @@
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
 
-      var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
+      if(!contactName || !contactEmail || !contactSubject || !contactMessage){
+         $('#image-loader').fadeOut();
+         $('#message-warning').html("Whoops! Name, Email, Subject and Message fields are required.");
+         $('#message-warning').fadeIn();
+         return false;
+      }
+      // var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
+      //          '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
 
+      var data = {
+         email:contactEmail,
+         message:contactMessage,
+         name:contactName,
+         subject:contactSubject
+      };
       $.ajax({
 
 	      type: "POST",
-	      url: "inc/sendEmail.php",
+	      url: "https://formspree.io/f/xnqkroqz",
 	      data: data,
-	      success: function(msg) {
-
+         
+	      success: function(msg, textStatus) {
             // Message was sent
-            if (msg == 'OK') {
+            if (textStatus == 'success') {
                $('#image-loader').fadeOut();
                $('#message-warning').hide();
                $('#contactForm').fadeOut();
@@ -166,12 +178,23 @@
             // There was an error
             else {
                $('#image-loader').fadeOut();
-               $('#message-warning').html(msg);
+               $('#message-warning').html('Something went wrong!');
 	            $('#message-warning').fadeIn();
             }
 
-	      }
-
+	      },
+         complete: function(jqXHR, textStatus, errorThrown) {
+            if (textStatus == 'error') {
+               $('#image-loader').fadeOut();
+               $('#message-warning').html(textStatus + ": " + jqXHR.status);
+	            $('#message-warning').fadeIn();
+            }
+        }, 
+        error: function(jqXHR, textStatus, errorThrown){
+         $('#image-loader').fadeOut();
+         $('#message-warning').html(textStatus + ": " + jqXHR.status);
+         $('#message-warning').fadeIn();
+       }
       });
       return false;
    });
