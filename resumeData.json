@@ -19,11 +19,6 @@
     "resumedownload":"https://www.rickyharerri.com/ResumePrabhjotPDF.pdf",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://facebook.com/rickyharerri",
-        "className":"fa fa-facebook"
-      },
-      {
         "name":"twitter",
         "url":"https://twitter.com/rickyharerri",
         "className":"fa fa-twitter"
@@ -32,11 +27,6 @@
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/rickyharerri/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"https://instagram.com/rickyharerri",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
@@ -108,6 +98,10 @@
       {
         "name":"PHP",
         "level":"95%"
+      },
+      {
+        "name":"Python",
+        "level":"90%"
       },
       {
         "name":"ReactJS",
